@@ -32,3 +32,9 @@ test('basic test example', (t) => {
   t.equal(1, 1);
   t.notEqual(1, 3);
 });
+
+test('incorrect test example', (t) => {
+  t.plan(2);
+  t.equal(1, -1);
+  t.notEqual(1, 3);
+});
