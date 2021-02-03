@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest example --notify --config=config.json"
+    "test": "jest example --notify"
   },
   "dependencies": {
     "ejs": "^3.1.5",
